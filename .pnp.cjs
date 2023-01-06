@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@thirdweb-dev/contracts", "npm:3.3.0"],\
+            ["dotenv", "npm:16.0.3"],\
             ["hardhat", "virtual:6d4a7a1f903b69867db336e262090a4e1c303a3246e45e7a7d91570492269b0619ef753592102be014df802c62f57d98468c2f45ea246b84c5e09c7cc8b97685#npm:2.12.5"]\
           ],\
           "linkType": "SOFT"\
@@ -1597,6 +1598,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["dotenv", [\
+        ["npm:16.0.3", {\
+          "packageLocation": "./.yarn/cache/dotenv-npm-16.0.3-4cc29121dc-afcf03f373.zip/node_modules/dotenv/",\
+          "packageDependencies": [\
+            ["dotenv", "npm:16.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["elliptic", [\
         ["npm:6.5.4", {\
           "packageLocation": "./.yarn/cache/elliptic-npm-6.5.4-0ca8204a86-d56d21fd04.zip/node_modules/elliptic/",\
@@ -2105,6 +2115,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["hardhat-javascript-starter", "workspace:."],\
             ["@thirdweb-dev/contracts", "npm:3.3.0"],\
+            ["dotenv", "npm:16.0.3"],\
             ["hardhat", "virtual:6d4a7a1f903b69867db336e262090a4e1c303a3246e45e7a7d91570492269b0619ef753592102be014df802c62f57d98468c2f45ea246b84c5e09c7cc8b97685#npm:2.12.5"]\
           ],\
           "linkType": "SOFT"\
