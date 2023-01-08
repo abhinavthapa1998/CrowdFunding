@@ -1,4 +1,4 @@
-## Getting Started
+## Crowd Funding Contracts
 
 Create a project using this example:
 
